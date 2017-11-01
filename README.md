@@ -1,12 +1,4 @@
-*******************************
-
-  _____          __          
- / ___/__  ___  / /________ _
-/ /__/ _ \/ _ \/ __/ __/ _ `/
-\___/\___/_//_/\__/_/  \_,_/ 
-                             
-
-******************************
+# Contra
 
 -------
 General
@@ -28,15 +20,15 @@ Dependencies : Python 3 . Pygame latest (1.9) 32-bit
 
 	On Windows
 
-.../Contra/>   python main.py
+```.../Contra/>   python main.py```
 
 	On Linux
 
-> python main.py
+```> python main.py```
 	
 	On Mac
 
-> python main.py
+```> python main.py```
 
 Note That the name of the program can be 'python' or 'python3' depending on whether you already have python preinstalled
 
