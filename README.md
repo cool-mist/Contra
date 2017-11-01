@@ -88,9 +88,7 @@ Additional Details about Mechanics
 A random powerup drops in front of the player every 2 seconds. If it goes out of screen behind the player, it disappears
 Snipers shoot only when the player is infront of them
 Soldiers who run across the screen are generated randomly every 3 seconds in front of the player
-------------------------------------------------
 All global settings are present in the 'settings.py'. They can be changed by the player to make the game more interesting and/or challenging
-------------------------------------------------
 
 Asset Credits
 -------------
@@ -100,12 +98,7 @@ Sound -- Jake Kaufman on ocremix.org BGM
       -- Sprite sound effects from bfxr.net
 Sprites -- Searched on google images
 
- ____  _  _   __   __ _  __ _  _  _  __   _  _    ____  __  ____    ____  __     __   _  _  __  __ _   ___ 
-(_  _)/ )( \ / _\ (  ( \(  / )( \/ )/  \ / )( \  (  __)/  \(  _ \  (  _ \(  )   / _\ ( \/ )(  )(  ( \ / __)
-  )(  ) __ (/    \/    / )  (  )  /(  O )) \/ (   ) _)(  O ))   /   ) __// (_/\/    \ )  /  )( /    /( (_ \
- (__) \_)(_/\_/\_/\_)__)(__\_)(__/  \__/ \____/  (__)  \__/(__\_)  (__)  \____/\_/\_/(__/  (__)\_)__) \___/
-
-***********************************************************************************************************
+# Thank you for playing
 
 
 
