@@ -1,4 +1,4 @@
-# Contra ![Remastered](https://i.imgur.com/rUayNwA.png)
+# <img src="https://i.imgur.com/rUayNwA.png" height = "100px" width ="300px"/>
 
 A 2d side-scroller clone of Contra (1988) game created using python and pygame library.
 
@@ -69,8 +69,8 @@ from the ground.
 Asset | Credits
 ---|---
 Background | Zephiel87
-BGM | Jake Kaufman on [ocremix](ocremix.org)
-Sprite sounds | Effects from [bfxr](bfxr.net)
+BGM | Jake Kaufman on [ocremix](https://ocremix.org/)
+Sprite sounds | Effects from [bfxr](https://www.bfxr.net/)
 Sprites | Google images
 
 # Thank you for playing
