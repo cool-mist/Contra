@@ -1,4 +1,4 @@
-# <img src="https://i.imgur.com/rUayNwA.png" height = "100px" width ="300px"/>
+# <img src="https://i.imgur.com/rUayNwA.png" height = "200px" width ="600px"/>
 
 A 2d side-scroller clone of Contra (1988) game created using python and pygame library.
 
