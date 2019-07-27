@@ -1,20 +1,20 @@
-# Camera sprite
+"""Defines the camera of the game"""
 import pygame
-from settings import *
-vec = pygame.math.Vector2
+Vec = pygame.math.Vector2
+
 
 class Camera(object):
-    def __init__(self, width, height):
-    	self.pos = vec(0,0)
-    def update(self,sprite):
-    	if sprite.canMove:
-    		self.pos.x = -sprite.pos.x
-    	if self.pos.x >= LEFT_BOUND:
-    		self.pos.x = LEFT_BOUND
-    	elif self.pos.x <= RIGHT_BOUND:
-    		self.pos.x = RIGHT_BOUND
-    	#self.pos.y = min(-sprite.pos.y+HEIGHT/2,0)
-    	#print(self.pos.x)
-   
-camera = Camera(WIDTH,HEIGHT)
-        
+    """Camera centered at the player."""
+
+    def __init__(self, left_bound, right_bound):
+        self.pos = Vec(0, 0)
+        self.left_bound = left_bound
+        self.right_bound = right_bound
+
+    def update(self, sprite):
+        if sprite.canMove:
+            self.pos.x = -sprite.pos.x
+        if self.pos.x >= self.left_bound:
+            self.pos.x = self.left_bound
+        elif self.pos.x <= self.right_bound:
+            self.pos.x = self.right_bound
