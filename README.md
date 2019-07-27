@@ -5,16 +5,14 @@ A 2d side-scroller clone of Contra (1988) game created using python and pygame l
 
 ## Run :runner:
 
-Dependency | Version
----|---
-Python | 3.x 32-bit
-Pygame | 1.9 32-bit
+Requires python-3 and pip installed.
 
-*Install Python 3 and Pygame 1.9 windows dependencies from [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/)* 
+```bash
+pip install -r requirements.txt`
+python main.py
+```
 
-```.../Contra/>   python main.py```
 
-*Game tested with above dependencies to work with 32 bit version of Python on Windows.*
 
 ## Game Instructions
 
