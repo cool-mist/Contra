@@ -8,10 +8,16 @@ A 2d side-scroller clone of Contra (1988) game created using python and pygame l
 Requires python-3 and pip installed.
 
 ```bash
-pip install -r requirements.txt`
+pip install -r requirements.txt
 python main.py
 ```
 
+### Fullscreen
+You can start the game in fullscreen mode by passing the "-f" argument
+
+```bash
+python main.py -f
+```
 
 
 ## Game Instructions
