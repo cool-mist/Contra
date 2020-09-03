@@ -3,9 +3,10 @@
 
 # Pygame Template
 
-import pygame
-import random
 import os
+import random
+import sys
+import pygame
 from settings import *
 from sprites import *
 from camera import *
@@ -17,7 +18,11 @@ from graphics import *
 class Game:
 	def __init__(self):		
 		# Initialize
-		self.screen = screen  # defined in graphics
+		size = width, height = 600, 480
+		if "-f" in sys.argv[1:]:
+			self.screen = pygame.display.set_mode(size, pygame.FULLSCREEN)
+		else:
+			self.screen = screen
 		pygame.display.set_caption(TITLE)
 		self.clock = pygame.time.Clock()
 		self.running = True
