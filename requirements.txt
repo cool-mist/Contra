@@ -1,5 +1,5 @@
 certifi==2019.6.16
-pipenv==2018.11.26
+pipenv==2022.1.8
 pygame==1.9.6
 virtualenv==16.7.2
 virtualenv-clone==0.5.3
